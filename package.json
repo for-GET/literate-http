@@ -1,0 +1,44 @@
+{
+  "name": "literate-http",
+  "description": "Literate HTTP",
+  "keywords": [
+    "literate",
+    "http",
+    "markdown",
+    "curl",
+    "json",
+    "peg"
+  ],
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/for-GET/literate-http.git"
+  },
+  "licenses": [
+    {
+      "type": "Unlicense",
+      "url": "http://unlicense.org/UNLICENSE"
+    }
+  ],
+  "bin": {},
+  "scripts": {
+    "prepublish": "make prepublish",
+    "test": "make test"
+  },
+  "dependencies": {
+  },
+  "optionalDependencies": {
+    "api-pegjs": "~0.4.3",
+    "coffee-script": "~1.7.1"
+  },
+  "devDependencies": {
+    "chai": "~1.9.1",
+    "coffeelint": "~1.5.1",
+    "mocha": "~1.20.0",
+    "testem": "~0.6.16"
+  },
+  "publishConfig": {
+    "bin": {},
+    "optionalDependencies": {}
+  }
+}
