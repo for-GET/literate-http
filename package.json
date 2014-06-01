@@ -9,7 +9,7 @@
     "json",
     "peg"
   ],
-  "version": "0.0.7",
+  "version": "0.0.8",
   "repository": {
     "type": "git",
     "url": "git://github.com/for-GET/literate-http.git"
