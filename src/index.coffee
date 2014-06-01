@@ -1,7 +1,11 @@
 module.exports =
   toAST: do () ->
-    parse = require './parse'
-    ({input}) ->
-      parse input
+    parse =
+      'canonical': require './parse'
+      'curl': require './parseCurl'
+      'apiary': require './parseApiary'
+    ({input, format}) ->
+      format ?= 'canonical'
+      parse[format] input
 
   fromAST: require('./fromAST')
