@@ -3,7 +3,7 @@ module.exports =
     parse =
       'canonical': require './parse'
       'curl': require './parseCurl'
-      'apiary': require './parseApiary'
+      'apib': require './parseApib'
     ({input, format}) ->
       format ?= 'canonical'
       parse[format] input
