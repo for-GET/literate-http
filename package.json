@@ -30,7 +30,7 @@
   },
   "dependencies": {},
   "optionalDependencies": {
-    "api-pegjs": "~0.4.14",
+    "api-pegjs": "~0.4.15",
     "coffee-script": "~1.7.1"
   },
   "devDependencies": {
