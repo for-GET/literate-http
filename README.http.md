@@ -1,10 +1,12 @@
 # HTTP example
 
 ```http
-GET /
+GET / HTTP/1.1
 User-Agent: curl/7.30.0
 Accept: */*
-200
+
+HTTP/1.1 200 OK
 Content-Type: text/plain
+
 foo
 ```
