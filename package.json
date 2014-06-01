@@ -20,7 +20,10 @@
       "url": "http://unlicense.org/UNLICENSE"
     }
   ],
-  "bin": {},
+  "bin": {
+    "lithttp-to-ast": "bin/to-ast.coffee",
+    "lithttp-from-ast": "bin/from-ast.coffee"
+  },
   "scripts": {
     "prepublish": "make prepublish",
     "test": "make test"
@@ -38,7 +41,10 @@
     "testem": "~0.6.16"
   },
   "publishConfig": {
-    "bin": {},
+    "bin": {
+      "lithttp-to-ast": "bin/to-ast.js",
+      "lithttp-from-ast": "bin/from-ast.js"
+    },
     "optionalDependencies": {}
   }
 }

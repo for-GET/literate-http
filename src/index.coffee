@@ -1,4 +1,7 @@
-parse = require './parse'
+module.exports =
+  toAST: do () ->
+    parse = require './parse'
+    ({input}) ->
+      parse input
 
-module.exports = (input) ->
-  parse input
+  fromAST: require('./fromAST')

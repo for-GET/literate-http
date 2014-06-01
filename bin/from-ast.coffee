@@ -2,7 +2,7 @@
 
 litHTTP = require '../'
 
-[_, _] = process.argv
+[_, _, format] = process.argv
 
 input = process.stdin
 input.setEncoding 'utf8'
@@ -11,5 +11,5 @@ data = ''
 input.on 'data', (chunk) ->
   data += chunk
 input.on 'end', () ->
-  result = JSON.stringify litHTTP(data), null, 2
+  result = litHTTP.fromAST {AST: JSON.parse(data), format}
   process.stdout.write result
