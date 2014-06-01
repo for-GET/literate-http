@@ -9,7 +9,7 @@
     "json",
     "peg"
   ],
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "git://github.com/for-GET/literate-http.git"
@@ -28,8 +28,7 @@
     "prepublish": "make prepublish",
     "test": "make test"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "optionalDependencies": {
     "api-pegjs": "~0.4.7",
     "coffee-script": "~1.7.1"
