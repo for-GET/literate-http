@@ -69,6 +69,9 @@ curl -s https://raw.githubusercontent.com/for-GET/literate-http/master/README.ht
 curl -s https://raw.githubusercontent.com/for-GET/literate-http/master/README.curl.md | \
   lithttp-to-ast curl
 
+curl -s https://raw.githubusercontent.com/for-GET/literate-http/master/README.curl-trace.md | \
+  lithttp-to-ast curl-trace
+
 curl -s https://raw.githubusercontent.com/for-GET/literate-http/master/README.apib.md | \
   lithttp-to-ast apib
 ```
