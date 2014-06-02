@@ -2,7 +2,11 @@
 
 Parse HTTP transactions into a JSON AST and back, like
 
-[HTTP](./README.http.md), or [simplified HTTP](./README.http.simplified.md), or [curl](./README.curl.md), or [Apiary blueprint](./README.apib.md)
+[HTTP](./README.http.md),
+or [simplified HTTP](./README.http.simplified.md),
+or [curl](./README.curl.md),
+or [curl-trace](./README.curl-trace.md),
+or [Apiary blueprint](./README.apib.md)
 
 into/from
 
