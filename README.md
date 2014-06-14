@@ -10,46 +10,7 @@ or [Apiary blueprint](./README.apib.md)
 
 into/from
 
-```json
-[
-  {
-    "__type": "litHTTP_transaction",
-    "request": {
-      "__type": "litHTTP_request",
-      "method": "GET",
-      "target": {
-        "__type": "request_target",
-        "value": "/"
-      },
-      "HTTP_version": "HTTP/1.1",
-      "headers": [
-        {
-          "name": "User-Agent",
-          "value": "curl/7.30.0"
-        },
-        {
-          "name": "Accept",
-          "value": "*/*"
-        }
-      ],
-      "body": null
-    },
-    "response": {
-      "__type": "litHTTP_response",
-      "HTTP_version": "HTTP/1.1",
-      "status_code": 200,
-      "reason_phrase": "OK",
-      "headers": [
-        {
-          "name": "Content-Type",
-          "value": "text/plain"
-        }
-      ],
-      "body": "foo"
-    }
-  }
-]
-```
+or [JSON AST](./README.json)
 
 
 ## Install
