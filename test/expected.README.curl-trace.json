@@ -1,0 +1,62 @@
+[
+  {
+    "__type": "litHTTP_transaction",
+    "request": {
+      "__type": "litHTTP_request",
+      "method": "GET",
+      "target": {
+        "__type": "request_target",
+        "value": "/headers"
+      },
+      "HTTP_version": "HTTP/1.1",
+      "headers": [
+        {
+          "name": "User-Agent",
+          "value": "curl/7.24.0 (x86_64-apple-darwin12.0) libcurl/7.24.0 OpenSSL/0.9.8x zlib/1.2.5"
+        },
+        {
+          "name": "Host",
+          "value": "httpbin.org"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        }
+      ],
+      "body": null
+    },
+    "response": {
+      "__type": "litHTTP_response",
+      "HTTP_version": "HTTP/1.1",
+      "status_code": 200,
+      "reason_phrase": "OK",
+      "headers": [
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "name": "Date",
+          "value": "Sun, 21 Jul 2013 13:09:55 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "gunicorn/0.17.4"
+        },
+        {
+          "name": "Content-Length",
+          "value": "196"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "body": "{\n  \"headers\": {\n    \"User-Agent\": \"curl/7.24.0 (x86_64-apple-darwin12.0) libcurl/7.24.0 OpenSSL/0.9.8x zlib/1.2.5\",\n    \"Host\": \"httpbin.org\",\n    \"Accept\": \"*/*\",\n    \"Connection\": \"close\"\n  }\n}"
+    }
+  }
+]

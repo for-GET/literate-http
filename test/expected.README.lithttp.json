@@ -1,0 +1,35 @@
+[
+  {
+    "__type": "litHTTP_transaction",
+    "request": {
+      "__type": "litHTTP_request",
+      "method": "GET",
+      "target": {
+        "__type": "request_target",
+        "value": "/"
+      },
+      "headers": [
+        {
+          "name": "User-Agent",
+          "value": "curl/7.30.0"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        }
+      ],
+      "body": null
+    },
+    "response": {
+      "__type": "litHTTP_response",
+      "status_code": 200,
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "text/plain"
+        }
+      ],
+      "body": "foo"
+    }
+  }
+]
