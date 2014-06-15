@@ -1,12 +1,13 @@
 module.exports =
   toAST: do () ->
     parse =
-      'canonical': require './parse'
+      'http': require './parse'
+      'lithttp': require './parse'
       'curl': require './parseCurl'
       'curl-trace': require './parseCurlTrace'
       'apib': require './parseApib'
     ({input, format}) ->
-      format ?= 'canonical'
+      format ?= 'lithttp'
       parse[format] input
 
   fromAST: require('./fromAST')

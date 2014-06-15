@@ -3,7 +3,7 @@
 Parse HTTP transactions into a JSON AST and back, like
 
 [HTTP](./README.http.md),
-or [simplified HTTP](./README.http.simplified.md),
+or [litHTTP (simplified HTTP)](./README.lithttp.md),
 or [curl](./README.curl.md),
 or [curl-trace](./README.curl-trace.md),
 or [Apiary blueprint](./README.apib.md)
@@ -28,7 +28,7 @@ npm install lithttp
 curl -s https://raw.githubusercontent.com/for-GET/literate-http/master/README.http.md | \
   lithttp-to-ast
 
-curl -s https://raw.githubusercontent.com/for-GET/literate-http/master/README.http.simplified.md | \
+curl -s https://raw.githubusercontent.com/for-GET/literate-http/master/README.lithttp.md | \
   lithttp-to-ast
 
 curl -s https://raw.githubusercontent.com/for-GET/literate-http/master/README.curl.md | \
